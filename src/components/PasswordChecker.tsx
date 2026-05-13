@@ -201,9 +201,14 @@ export default function PasswordChecker() {
                         >
                             {SCORE_LABELS[score]}
                         </span>
-                        <span className="text-xs text-gray-500">
-                            Crack time: <span className="text-gray-300">{crackTime}</span>
-                        </span>
+                        <div className="flex flex-col items-end">
+                            <span className="text-xs text-gray-500">
+                                Crack time: <span className="text-gray-300">{crackTime}</span>
+                            </span>
+                            <span className="text-[10px] text-gray-600 font-mono uppercase tracking-wider">
+                                Entropy: <span className="text-violet-400/80">{result ? Math.floor(Math.log2(result.guesses)) : 0} bits</span>
+                            </span>
+                        </div>
                     </div>
 
                     {/* Strength bar */}
