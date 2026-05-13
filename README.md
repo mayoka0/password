@@ -1,5 +1,14 @@
 # 🔒 Password Hygiene Checker
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mayoka0&show_icons=true&theme=radical" alt="GitHub Stats" />
+</div>
+
+### 🛠️ Tech Stack & Skills
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,nodejs,git,vercel" alt="Skill Icons" />
+</div>
+
 A **privacy-first** password hygiene checker built with Next.js 14, TypeScript, and Tailwind CSS. All analysis runs locally in your browser — your password **never** leaves your device.
 
 ---
